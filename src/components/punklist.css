@@ -1,0 +1,17 @@
+.punklist {
+  display: flex;
+  margin-top: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+}
+
+.punklist::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 366px) {
+  .punklist{
+    margin-left: -10px;
+  }
+}
